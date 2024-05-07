@@ -11,6 +11,7 @@ public class Movie {
 	
 	// 필수 생성자
 	public Movie(String 영화제목, String 영화장르) {
+		super();
 		this.영화제목 = 영화제목;
 		this.영화장르 = 영화장르;
 	}

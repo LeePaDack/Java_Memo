@@ -15,7 +15,7 @@ public class Main {
 			 System.out.println("문자열을 입력해주세요.");
 			 String str = sc.nextLine();
 			 
-			 if(str == "finish") { // finish 넣었을 때 멈추게 변경
+			 if(str.equals("finish")) { // finish 넣었을 때 멈추게 변경
 				 break;
 			 }
 			 else {
@@ -24,8 +24,7 @@ public class Main {
 			 }
 			 
 		 }
-		 System.out.println("프로그램을 종료합니다.");
-		
+		System.out.println("시스템 종료");
 		
 		
 		
